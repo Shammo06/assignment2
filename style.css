@@ -1,11 +1,12 @@
 *{
     font-family: 'Lato', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    
 }
 
 nav{
     display: flex;
-    justify-content:space-between;
+    
 }
 nav > div{
     display: flex;
@@ -14,6 +15,10 @@ nav > div{
 }
 .nav-text{
     color: #FF42A5;
+}
+.bar > .text-primary{
+    width: 120px;
+
 }
 .web-name > img{
     width: 85px;
@@ -29,12 +34,30 @@ nav > div{
     font-size: 18px;
     font-weight: 500; 
     line-height: normal;
-          
+}
+.nav-icon{
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    text-align: center;
+    padding-top: 5px;
+.fa-youtube{
+    width: 33.916px;
+    height: 24px;
+    color: red;
+}             
+}
+.banner{
+    display: flex;
 }
 .banner-text{
     width: 901px;
     height: 700px;
     background-image: url("../assignment2/images/grp14.png");
+    text-align: center;
+    padding: 150px;
+
 }
 .banner-head{
     color: #0B0223;
@@ -42,6 +65,7 @@ nav > div{
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    margin-bottom:-70px;
 }
 .banner-title{
     font-size: 95px;
@@ -52,9 +76,20 @@ nav > div{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+    
 }
 li{
     list-style: none;
+    text-align: left;
+    padding-left: 80px;
+    margin-top: 10px;
+
+}
+.button{
+    margin-top: 30px;
+    
+
 }
 .sign{
     display: inline-flex;
@@ -72,4 +107,11 @@ li{
     gap: 10px;
     border-radius: 48px;
     background: #4EC5F7;
+    
+}
+
+.contain{
+    display: flex;
+    text-align: right;
+    align-items: center;
 }
