@@ -162,4 +162,17 @@ li{
     font-weight: 700;
     line-height: normal;
 }
-/* */
+/* image parts*/
+.online-extra{
+    display: flex;
+    justify-content: center;
+
+}
+.online-img{
+    width: 342px;
+    height: 400px;
+    margin-left: 25px;   
+    
+}
+
+/* overlapping parts*/
