@@ -402,3 +402,53 @@ footer{
     font-weight: 500;
     line-height: normal;
 }
+main{
+    display: none;
+}
+footer{
+    display: none;
+}
+@media screen and (max-width:576px){
+    nav{
+        flex-direction: column;
+        align-items: center;
+       
+    .web-name{
+        flex-direction: row;
+    } 
+    .bar{
+        flex-direction: column;
+        text-align: center;
+    }   
+
+    nav > div{
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+        gap:5px;
+        
+    }
+
+
+
+}
+
+
+    /*footer{
+        width: 576px;
+    }
+    .footer-list{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);*/
+    
+
+@media screen and (min-width:577px) and (max-width:992px){
+    nav{
+        display: block;
+       
+    
+    }
+}
+
+
+  
