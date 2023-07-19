@@ -441,18 +441,16 @@ footer{
 }
 
 
-    /*footer{
-        width: 576px;
-    }
-    .footer-list{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);*/
-    
+   
 
 @media screen and (min-width: 577px) and (max-width: 992px){
     nav{
         display: block;  
     
+    }
+    nav,.banner,.contain,.online-extra,.overlapping,.career,footer{
+        flex-direction: column;
+        align-items: center;
     }
 }
 
