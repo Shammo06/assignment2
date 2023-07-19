@@ -173,9 +173,11 @@ li{
 .online-img{
     width: 342px;
     height: 400px;
-    margin-left: 25px;   
+    margin-left: 25px;
+    cursor: pointer;  
     
 }
+
 
 /* overlapping parts*/
 .overlapping{
